@@ -1,16 +1,16 @@
-.skillsBlock {
+.footerBlock {
     height: 100vh;
     background-color: #ffe4c0;
 }
 
-.skillsContainer {
+.footerContainer {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 
 }
 
-.skills {
+.instances {
     border: 1px solid;
     width: 100%;
     display: flex;
