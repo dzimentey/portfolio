@@ -1,10 +1,12 @@
 import React from 'react';
 import s from './MyWorks.module.css'
 import common from './../common/styles/Container.module.css'
+import {Work} from "./work/Work";
 
 
-let skill1: string = `Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
-                        per inceptos himenaeos.`
+let describe: string = `Fuga neque pariatur qui sequi voluptas! 
+    Aliquam aliquid deleniti doloribus expedita fugit hic illo illum incidunt
+    minus neque nobis odit perferendis porro.`
 
 export const MyWorks = () => {
     return (
@@ -12,9 +14,8 @@ export const MyWorks = () => {
             <div className={`${common.container} ${s.myWorksContainer}`}>
                 <h3 className={s.title}>My Works</h3>
                 <div className={s.works}>
-                    {/*<Skill title={'HTML'} description={skill1}/>*/}
-                    {/*<Skill title={'CSS'} description={skill1}/>*/}
-
+                   <Work title={'Work 1'} description={describe} />
+                   <Work title={'Work 2'} description={describe} />
                 </div>
             </div>
         </div>

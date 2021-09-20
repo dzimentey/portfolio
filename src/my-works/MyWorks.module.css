@@ -1,4 +1,4 @@
-.skillsBlock {
+.myWorksBlock {
     height: 100vh;
     background-color: #a7a7f1;
 }
@@ -11,7 +11,7 @@
 }
 
 .title {
-    background-color: lightgray;
+    background-color: powderblue;
 }
 
 .works {
