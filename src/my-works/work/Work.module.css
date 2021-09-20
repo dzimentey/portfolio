@@ -7,8 +7,19 @@
     text-align: center;
 }
 
-.icon {
+.imageContainer {
     width: inherit;
     height: 220px;
     background-color: #eaaea1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seeMore {
+    background-color: #ffe4c0;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-weight: 500;
 }

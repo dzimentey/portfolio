@@ -1,0 +1,34 @@
+.remoteWorkBlock{
+    height: 12vh;
+    background-color: #ebfcd6;
+}
+
+
+.remoteWorkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hireButton {
+    background-color: #b4b4f7;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-weight: 700;
+}
+
+.title {
+    background-color: powderblue;
+}
+
+/*.works {*/
+/*    border: 1px solid;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
