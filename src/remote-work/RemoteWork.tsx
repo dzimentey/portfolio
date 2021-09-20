@@ -6,10 +6,12 @@ export const RemoteWork = () => {
     return (
         <div className={s.remoteWorkBlock}>
             <div className={`${common.container} ${s.remoteWorkContainer}`}>
-                <h3 className={s.title}>Open for remote work</h3>
-                <div className={s.hireButton}>
-                    Hire me
-                </div>
+
+                    <h3 className={s.title}>Open for remote work</h3>
+                    <div className={s.hireButton}>
+                        Hire me
+                    </div>
+
             </div>
         </div>
     )

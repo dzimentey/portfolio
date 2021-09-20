@@ -1,6 +1,6 @@
 .skillsBlock {
     height: 100vh;
-    background-color: #ececff;
+    background-color: #ffe4c0;
 }
 
 .skillsContainer {
@@ -19,5 +19,5 @@
 }
 
 .title {
-    background-color: lightgray;
+    background-color: powderblue;
 }
