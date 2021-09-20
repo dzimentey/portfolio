@@ -1,18 +1,17 @@
 .footerBlock {
-    height: 100vh;
-    background-color: #ffe4c0;
+    height: 32vh;
+    background-color: #ebfcd6;
 }
 
 .footerContainer {
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-
+    justify-content: space-around;
 }
 
 .instances {
     border: 1px solid;
-    width: 100%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -20,4 +19,9 @@
 
 .title {
     background-color: powderblue;
+}
+
+.copyrights {
+    font-weight: 500;
+    background-color: #eaafa3;
 }
