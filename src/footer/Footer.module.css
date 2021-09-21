@@ -1,12 +1,12 @@
 .footerBlock {
-    height: 32vh;
+    height: 35vh;
     background-color: #ebfcd6;
 }
 
 .footerContainer {
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .instances {
@@ -19,6 +19,7 @@
 
 .title {
     background-color: powderblue;
+    margin: 0;
 }
 
 .copyrights {
