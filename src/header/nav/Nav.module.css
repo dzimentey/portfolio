@@ -4,4 +4,10 @@
     display: flex;
    justify-content: space-between;
 }
+ a {
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 10px ;
+}
 

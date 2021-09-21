@@ -7,9 +7,9 @@ export const Main = () => {
         <div className={s.mainBlock}>
             <div className={common.container}>
                 <div className={s.intro}>
-                    <span>Hello you guys</span>
-                    <h1>I'm Front - ninja</h1>
-                    <p>a Front-End React developer</p>
+                    <span>Hello you guys. I'm</span>
+                    <h1>El Chupa Pupa</h1>
+                    <p>Different ends developer...</p>
                 </div>
                 <div className={s.photo}>
                 </div>
