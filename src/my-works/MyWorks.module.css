@@ -1,6 +1,7 @@
 .myWorksBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #a7a7f1;
+    display: flex;
 }
 
 .myWorksContainer {
@@ -8,13 +9,14 @@
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    height: auto;
 }
 
 .works {
     border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
