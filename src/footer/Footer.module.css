@@ -22,10 +22,11 @@
 
 .title {
     background-color: powderblue;
-    margin: 0;
+    /*margin: 0;*/
 }
 
 .copyrights {
     font-weight: 500;
     background-color: #eaafa3;
+    margin: 10px 0;
 }
