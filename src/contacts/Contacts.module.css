@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-	flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
 .formContainer {
@@ -40,6 +40,17 @@ textarea {
     font-weight: 700;
     border: 1px solid;
     border-radius: 5px;
-    padding: 0 5px;
+    padding: 5px;
     background-color: #a7a7f1;
+}
+
+.sendButton:hover {
+    cursor: pointer;
+    background-color: #8f8fec;
+}
+
+.sendButton:active {
+    background-color: #ececff;
+    border: 1px solid #677d67;
+
 }
