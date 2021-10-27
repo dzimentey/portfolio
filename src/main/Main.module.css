@@ -3,11 +3,14 @@
     background-color: lightpink;
 }
 
-
-
 .intro {
     width: 300px;
     background-color: #c9dfec;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
 }
 
 .photo {
