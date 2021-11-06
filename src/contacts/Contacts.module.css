@@ -10,15 +10,21 @@
     flex-wrap: nowrap;
 }
 
-.formContainer {
-    border: 1px solid;
-}
+/*.formContainer {*/
+/*    border: 1px solid;*/
+/*}*/
 
 .form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 480px;
+}
 
+@media screen and (max-width: 600px) {
+    .form {
+        width: 100%;
+    }
 }
 
 input {
