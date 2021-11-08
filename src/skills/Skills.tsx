@@ -12,9 +12,12 @@ export const Skills = () => {
             <div className={`${common.container} ${s.skillsContainer}`}>
                 <h2 className={s.title}>Skills</h2>
                 <div className={s.skills}>
+                    <Skill title={'React'} description={skill1}/>
+                    <Skill title={'Redux'} description={skill1}/>
+                    <Skill title={'TS'} description={skill1}/>
+                    <Skill title={'JS'} description={skill1}/>
                     <Skill title={'HTML'} description={skill1}/>
                     <Skill title={'CSS'} description={skill1}/>
-                    <Skill title={'JS'} description={skill1}/>
                 </div>
             </div>
         </div>
