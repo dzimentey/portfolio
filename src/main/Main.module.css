@@ -1,22 +1,38 @@
 .mainBlock {
-    height: 100vh;
-    background-color: lightpink;
+    min-height: 100vh;
+    background-color: #131313;
+    border-bottom: 6px solid #2a2929;
+
 }
 
 .intro {
-    width: 300px;
-    background-color: #c9dfec;
+    width: 50%;
+    /*background-color: #c9dfec;*/
     font-family: 'Poppins', sans-serif;
+    color: #EEEEEE;
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+        width: 100%;
+    }
 }
 
 h1 {
     font-family: 'Quicksand', sans-serif;
+    color: #FFFFFF;
+}
+
+h1 span {
+    color: #62dafb;
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-image: url("./../common/img.png");
-    background-position-x: -80px;
-    background-position-y: -10px;
+    width: 420px;
+    height: 560px;
+    background-image: url("./../common/images/about.ME.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid #333;
 }
