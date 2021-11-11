@@ -1,7 +1,8 @@
 .footerBlock {
     min-height: 35vh;
-    background-color: #ebfcd6;
+    background-color: #000;
     display: flex;
+
 }
 
 .footerContainer {
@@ -23,16 +24,17 @@
 .icon {
     width: 100px;
     height: 100px;
-    background-color: #fed18d;
+    background-color: #111;
 }
 
 
 .title {
-    background-color: powderblue;
+    color: #EEEEEE;
+    /*background-color: powderblue;*/
 }
 
 .copyrights {
     font-weight: 500;
-    background-color: #eaafa3;
     margin: 10px 0;
+    color: #afb5c9;
 }
