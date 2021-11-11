@@ -1,6 +1,7 @@
 .remoteWorkBlock{
     height: 20vh;
-    background-color: #ebfcd6;
+    background-color: #111111;
+    border-bottom: 6px solid #151313;
 }
 
 .remoteWorkContainer {
