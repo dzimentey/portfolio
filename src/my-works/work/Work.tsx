@@ -4,12 +4,13 @@ import common from './../common/styles/Container.module.css'
 type WorkType = {
     title: string
     description: string
+    style: {}
 }
 
 export const Work = (props: WorkType) => {
     return (
         <div className={s.work}>
-            <div className={s.imageContainer}>
+            <div className={s.imageContainer} style={props.style}>
                 <span className={s.seeMore}>Show more</span>
             </div>
             <h3>{props.title}</h3>
