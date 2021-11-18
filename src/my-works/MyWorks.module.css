@@ -1,8 +1,9 @@
 .myWorksBlock {
     min-height: 100vh;
-    background-color: #F1F1F1;
+    /*background-color: #F1F1F1;*/
+    background-color: #ffffff;
     display: flex;
-    border-bottom: 6px solid #151313;
+    /*border-bottom: 6px solid #151313;*/
 }
 
 .myWorksContainer {
