@@ -1,0 +1,23 @@
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    position: relative;
+    line-height: 1.2;
+    margin: 0 0 20px;
+}
+
+.title h3 {
+    margin: 0;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    background: #EEEEEE;
+    width: 60px;
+    height: 1px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
