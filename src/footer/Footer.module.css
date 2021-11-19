@@ -1,6 +1,6 @@
 .footerBlock {
     min-height: 35vh;
-    background-color: #000;
+    background-color: #111111;
     display: flex;
 
 }
@@ -14,7 +14,7 @@
 }
 
 .iconsBlock {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 85%;
     display: flex;
     justify-content: space-evenly;
@@ -24,17 +24,17 @@
 .icon {
     width: 100px;
     height: 100px;
-    background-color: #111;
+    background-color: #2c272e38;
 }
 
 
 .title {
     color: #EEEEEE;
-    /*background-color: powderblue;*/
+    font-family: 'Quicksand', sans-serif;
 }
 
 .copyrights {
-    font-weight: 500;
     margin: 10px 0;
-    color: #afb5c9;
+    color: #EEEEEE;
+    font-family: 'Quicksand', sans-serif;
 }
