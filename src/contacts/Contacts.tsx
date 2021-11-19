@@ -1,13 +1,14 @@
 import React from 'react';
 import s from './Contacts.module.css'
 import common from '../common/styles/Container.module.css'
+import {Title} from "../common/components/title/Title";
 
 export const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={`${common.container} ${s.contactsContainer}`}>
-                <h3 className={s.title}>Quick Contact Form</h3>
 
+                <Title text={'Quick Contact Form'} />
                     <form action="" className={s.form}>
                         <input type="text" placeholder={'Your Name'}/>
                         <input type="text" placeholder={'Your Email'}/>
