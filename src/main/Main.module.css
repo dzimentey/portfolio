@@ -1,8 +1,7 @@
 .mainBlock {
     /*min-height: 100vh;*/
     background-color: #131313;
-    border-bottom: 6px solid #2a2929;
-
+    border-bottom: 6px solid #08071b8a;
 }
 
 .intro {
@@ -10,6 +9,7 @@
     /*background-color: #c9dfec;*/
     font-family: 'Poppins', sans-serif;
     color: #EEEEEE;
+    padding: 20px 10px;
 }
 
 @media screen and (max-width: 600px) {
