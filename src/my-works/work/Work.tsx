@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Work.module.css'
+import s from './Work.module.scss'
 import common from './../common/styles/Container.module.css'
 type WorkType = {
     title: string
